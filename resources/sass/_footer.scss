@@ -1,0 +1,68 @@
+#jumbotron {
+    height: 500px;
+    background-image: url("../images/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-link-container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-image: url("../images/dc-logo-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.footer-links {
+    width: 10%;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footer-links h4 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.footer-links a {
+    color: white;
+}
+
+#bottom-footer {
+    height: 100px;
+    background-color: #303030;
+}
+
+.bottom-footer-container {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.button-container {
+    width: 20%;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #0282f9;
+    color: white;
+}
+
+#socials {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#socials h3 {
+    color: #0282f9;
+}

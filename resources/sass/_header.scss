@@ -1,0 +1,45 @@
+.header-nav {
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-nav img {
+    display: block;
+}
+
+.link-container {
+    height: 100%;
+}
+
+.link-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.link-list li {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.link-list li.active {
+    border-bottom: 2px solid #0282f9;
+
+}
+
+.link-list li.active a {
+    color: #0282f9;
+}
+
+.link-list a {
+    font-weight: 600;
+}

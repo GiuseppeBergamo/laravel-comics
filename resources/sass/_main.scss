@@ -1,0 +1,36 @@
+main {
+    background-color: #1c1c1c;
+
+    .container {
+        height: 100%;
+    }
+}
+
+
+
+#content {
+    color: white;
+    height: 800px;
+}
+
+#card {
+    width: calc(100% / 6);
+    height: 300px;
+    padding: 40px;
+}
+
+#card p {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#card img {
+    max-width: 100%;
+    height: auto;
+}
+
+#base-card-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}

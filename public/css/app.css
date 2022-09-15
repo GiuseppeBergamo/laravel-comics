@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.header-nav {
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-nav img {
+  display: block;
+}
+
+.link-container {
+  height: 100%;
+}
+
+.link-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.link-list li {
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.link-list li.active {
+  border-bottom: 2px solid #0282f9;
+}
+
+.link-list li.active a {
+  color: #0282f9;
+}
+
+.link-list a {
+  font-weight: 600;
+}
+
+#main-jumbotron {
+  height: 500px;
+  background-image: url(../images/jumbotron.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  background-color: #1c1c1c;
+}
+main .container {
+  height: 100%;
+}
+
+#content {
+  color: white;
+  height: 800px;
+}
+
+#card {
+  width: 16.6666666667%;
+  height: 300px;
+  padding: 40px;
+}
+
+#card p {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#card img {
+  max-width: 100%;
+  height: auto;
+}
+
+#base-card-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#jumbotron {
+  height: 500px;
+  background-image: url("../images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-link-container {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-image: url("../images/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.footer-links {
+  width: 10%;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.footer-links h4 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.footer-links a {
+  color: white;
+}
+
+#bottom-footer {
+  height: 100px;
+  background-color: #303030;
+}
+
+.bottom-footer-container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.button-container {
+  width: 20%;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid #0282f9;
+  color: white;
+}
+
+#socials {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#socials h3 {
+  color: #0282f9;
+}
