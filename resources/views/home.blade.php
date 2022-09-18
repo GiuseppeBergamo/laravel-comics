@@ -4,10 +4,12 @@
 <div class="container">
     <div id="content">
         <div id="base-card-container">
-            <div id="card" v-for="comic in comics" :key="comic.series">
-                <img :src="comic.thumb" :alt="comic.series">
-                <p></p>
+            @foreach ($data as $comic)
+            <div id="card">
+                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
+                <p>{{ $comic['series'] }}</p>
             </div>
+            @endforeach
         </div>
     </div>
 </div>
