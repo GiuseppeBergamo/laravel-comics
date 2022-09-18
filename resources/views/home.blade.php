@@ -1,16 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <title>Laravel DC Comics</title>
-</head>
-<body>
-    @include('includes.header')
-    @include('includes.jumbotron')
-    @include('includes.main')
-    @include('includes.footer')
-</body>
-</html>
+@extends('layouts.main')
+
+@section('main-content')
+<div class="container">
+    <div id="content">
+        <div id="base-card-container">
+            <div id="card" v-for="comic in comics" :key="comic.series">
+                <img :src="comic.thumb" :alt="comic.series">
+                <p></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@endsection
