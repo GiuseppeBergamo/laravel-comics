@@ -1,0 +1,85 @@
+#comic-details {
+    height: 400px;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid grey;
+}
+
+.detail {
+    width: 70%;
+    height: 100%;
+    padding: 50px 20px;
+}
+
+.adv {
+    padding: 50px 20px;
+    width: 30%;
+    height: 100%;
+}
+
+#price-bar {
+    margin: 10px 0;
+    height: 50px;
+    background-color: #55ba59;
+    display: flex;
+    color: white;
+}
+
+.price {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 2px solid grey;
+    padding: 0 20px;
+}
+
+.check-availability {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.adv {
+    height: 100%;
+    width: 30%;
+    text-align: center;
+
+}
+
+#comic-specs {
+    height: 400px;
+    display: flex;
+    background-color: #f6f6f6;
+}
+
+#talent,
+#specs {
+    padding: 80px 20px;
+    width: 50%;
+    height: 100%;
+}
+
+.comic-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-height: 80px;
+    align-items: center;
+    padding: 5px;
+}
+
+.info {
+    width: 30%;
+}
+
+.content-info {
+    width: 70%;
+}
+
+.border-bottom-grey {
+    border-bottom: 1px solid grey;
+}
